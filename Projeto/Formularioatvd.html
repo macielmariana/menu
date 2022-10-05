@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head> 
+    <link rel="stylesheet" href="formatvd.css">
+  </head>
+  <body>
+    <div id="area">
+    <form id="formulario" autocomplete="off">
+        <fieldset>
+            <legend>Forumulário</legend>
+            <label>Nome:<input class="campo_nome" type="text" placeholder="Seu Nome" autofocus></label><br><br>
+            <label>Email:<input class="campo_email" type="email" placeholder="Seu Email"></label><br><br>
+            <label>Senha:<input class="campo_senha" type="password" placeholder="Sua senha"></label><br><br>
+            <label>Estado:
+                <select class="Campo_estado">
+                 <option value="valor1" selected>GO</option>
+                 <option value="Valor2">SP</option>
+                 <option value="valor3">RJ</option>
+                </select></label>
+            <br><br><br><br>
+            <label>Você deseja trabalhar como Webmaster?</label><br/>
+            <label><input type="radio" name="webmaster" value="sim" checked/>Sim</label><br/>
+            <label><input type="radio" name="webmaster" value="nao"/>Não</label><br/>
+            <label><input type="radio" name="webmaster" value="talvez"/>Talvez</label><br/>
+            <label><input type="radio" name="webmaster" value="quem_sabe"/>Quem sabe</label><br/>
+            <br><br>
+            <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8" placeholder="Digite aqui sua mensagem"></textarea>
+            <input class="btn_submit" type="submit" value="Enviar">
+            <input class="btn_reset" type="reset" value="Resetar">
+        </fieldset>
+
+    </form>
+    </div>
+  </body>
+  </html>
